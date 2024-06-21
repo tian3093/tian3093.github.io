@@ -1,0 +1,122 @@
+body { 
+  background-color: #dbeffc;
+  font-family:      Georgia, "Times New Roman", Times, serif;
+  margin:           0;
+  
+}
+
+header.top {
+  /*头部*/
+  width:            100%;/*宽度*/
+  height:           200px;/*高度*/
+  font-size:        800%;
+  text-align:       center;/*文本位置*/
+  color:            #4d7386;
+  background-color: #8dd2f5;
+  font-family:      Helvetica, Georgia, "Times New Roman", Times, serif;
+}
+
+header.top img#headerimg {
+	/*头部图片*/
+  width:            100%;/*宽度*/
+  height:           200px;/*高度*/
+  object-fit:       cover;/*保持图片宽高比*/
+}
+ 
+nav ul {
+  /*导航栏*/
+  width:            100%;
+  padding:          0px;/*内边距*/
+  height:           10px;/*高度*/
+  margin-bottom:    30px;/*外边距*/
+}
+
+nav ul li {
+  /*导航栏行的设置*/
+  height:           30px;
+  width:            20%;
+  list-style:       none;/*列表样式*/
+  float:            left;/*左浮动*/
+  font:             0.9em;
+}
+
+nav ul li a {
+  /*导航栏链接设置*/
+  text-align:       center;/*文本位置*/
+  color:            #4d7386;
+  font-size:        140%;/*字体大小*/
+  font-family:      黑体;
+  width:            100%;
+  margin:           0;
+  text-decoration:  none;/*列表样式*/
+  display:          block;
+  background-color: #8dd2f5;
+  line-height:      40px;
+  border-bottom:    0px solid #dbeffc;
+}
+
+nav ul li a:hover {    
+  /*鼠标划过导航栏时*/
+  color:            #4d7386;
+  border-bottom:    3px solid #4d7386;
+  
+}
+
+footer {
+  /*页脚区*/
+  background-color: #79cef9;
+  color:            #ecf8fa;
+  text-align:       center;
+  padding:          15px;
+  margin-top:       50px;
+  font-size:        90%;
+}
+
+h1 {
+  margin-top:       40px;/*设置上外边距*/
+}
+
+h1,h2 {
+  text-align:       center;/*居中*/
+  color:            #514125;
+
+}
+
+form {
+/*表单*/
+	display:           table;/*表格方式呈现*/
+	padding:           20px;
+  border:            3px solid #faf8e7; /*3像素宽，实线*/  
+  border-radius:     10px; /*设置圆角*/
+	background-color:  #faf8e7;
+  margin:            0px auto 0px;/*水平居中*/
+}
+
+form textarea {
+  /*表单中文本框设置*/
+	width:              400px;
+	height:             150px;
+}
+
+div.tableRow {
+	display: table-row;/*显示为表格行*/
+}
+
+div.tableRow p {
+	display: table-cell;/*显示为表格单元格*/
+	vertical-align: top;/*对齐到顶部*/
+	padding: 3px;
+}
+
+div.tableRow p:first-child {
+  /*第一个p子元素文本*/
+	text-align: right;/*右对齐*/
+}
+
+p.heading {
+	font-weight: bold;
+}
+
+p {
+  color: #4a3c23;
+}

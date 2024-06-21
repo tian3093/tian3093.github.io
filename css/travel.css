@@ -1,0 +1,197 @@
+body { 
+  background-color: #dbeffc;
+  font-family:      Georgia, "Times New Roman", Times, serif;
+  margin:           0;
+}
+
+header.top {
+  /*头部*/
+  width:            100%;/*宽度*/
+  height:           200px;/*高度*/
+  font-size:        800%;
+  text-align:       center;/*文本位置*/
+  color:            #4d7386;
+  background-color: #8dd2f5;
+  font-family:      Helvetica, Georgia, "Times New Roman", Times, serif;
+}
+
+header.top img#headerimg {
+	/*头部图片*/
+  width:            100%;/*宽度*/
+  height:           200px;/*高度*/
+  object-fit:       cover;/*保持图片宽高比*/
+}
+
+
+
+ 
+nav ul {
+  /*导航栏*/
+  width:            100%;
+  padding:          0px;/*内边距*/
+  height:           10px;/*高度*/
+  margin-bottom:    30px;/*外边距*/
+}
+
+nav ul li {
+  /*导航栏行的设置*/
+  height:           30px;
+  width:            20%;
+  list-style:       none;/*列表样式*/
+  float:            left;/*左浮动*/
+  display:          inline;
+  font:             0.9em;
+}
+
+nav ul li a {
+  /*导航栏链接设置*/
+  text-align:       center;/*文本位置*/
+  color:            #4d7386;
+  font-size:        140%;/*字体大小*/
+  font-family:      黑体;
+  width:            100%;
+  margin:           0;
+  text-decoration:  none;/*列表样式*/
+  display:          block;
+  background-color: #8dd2f5;
+  line-height:      40px;
+  border-bottom:    0px solid #dbeffc;
+}
+
+nav ul li a:hover {    
+  /*鼠标划过导航栏时*/
+  color:            #4d7386;
+  background-color: #8dd2f5;
+  border-bottom:    3px solid #4d7386;
+  
+}
+
+.container{
+  /*照片集容器*/
+	width:            100%;
+	height:           600px;
+	margin:           50px 0  300px;
+	position:         absolute;/*绝对定位*/
+}
+ 
+ 
+.container img{
+  /*图片设置*/
+  padding:          10px 10px 15px;/*内边距*/
+  background:       white;
+  border:           1px solid #ddd;/*边框线*/
+  box-shadow:       2px 2px 3px rgba(50,50,50,0.4);
+  -webkit-transition:all 0.5s ease-in;/*过渡效果*/
+  -moz-transition:  all 0.5s ease-in;
+  -ms-transition:   all 0.5s ease-in;
+  -o-transition:    all 0.5s ease-in;
+  transition:       all 0.5s ease-in;
+  position:         absolute;/*绝对定位*/
+  z-index:          1;/*设置元素的堆叠顺序*/
+}
+
+.pic{
+ width:             200px;
+ margin-right:      1%;
+}
+
+.container>img:hover{
+  /*容器内图片的hover样式*/
+  box-shadow:       15px 15px 20px rgba(50,50,50,0.4);/*添加阴影效果*/
+  transform:        rotate(0deg) scale(2.2);/*进行变形、缩放*/
+  -webkit-transform:rotate(0deg) scale(1.5);/*进行变形、缩放*/
+  z-index:          1000;
+}
+
+.pic1{
+  /*对单个图片进行设置*/
+    left:           400px;/*左侧边距*/
+    top:            0;/*上侧边距*/
+    transform:      rotate(-5deg);/*倾角*/
+    -webkit-transform:rotate(-5deg);
+}
+ 
+.pic2{
+    right:          16%;
+    top:            50px;
+    transform:      rotate(20deg);
+    -webkit-transform:rotate(20deg);
+}
+
+.pic3{
+    top:            220px;
+    right:          1%;
+    transform:      rotate(5deg);
+    -webkit-transform:rotate(5deg);
+}
+ 
+.pic4{
+    top:            320px;
+    left:           40%;
+    transform:      rotate(-10deg);
+    -webkit-transform:rotate(-10deg);
+}
+ 
+.pic5{
+    bottom:         70px;
+    right:          30%;
+    transform:      rotate(0);
+    -webkit-transform:rotate(0);
+}
+
+.pic6{
+    top:            0;
+    left:           10%;
+    transform:      rotate(10deg);
+    -webkit-transform:rotate(10deg);
+}
+ 
+.pic7{
+    bottom:         0;
+    left:           20%;
+    transform:      rotate(20deg);
+    -webkit-transform:rotate(20deg);
+}
+
+.pic8{
+    top:            0px;
+    left:           50%;
+    transform:      rotate(-10deg);
+    -webkit-transform:rotate(-10deg);
+}
+
+.pic9{
+    bottom:         0px;
+    right:          20%;
+    transform:      rotate(-10deg);
+    -webkit-transform:rotate(-10deg);
+}
+
+.pic10{
+    top:            50px;
+    left:           40%;
+    transform:      rotate(0deg);
+    -webkit-transform:rotate(0deg);
+}
+
+.pic11{
+    top:            10px;
+    right:          2%;
+    transform:      rotate(-5deg);
+    -webkit-transform:rotate(-5deg);
+}
+
+.pic12{
+    bottom:         10px;
+    left:           5%;
+    transform:      rotate(0);
+    -webkit-transform:rotate(0deg);
+}
+
+.pic0{
+    bottom:         -20px;
+    top:            190px;
+    transform:      rotate(5deg);
+    -webkit-transform:rotate(-15deg);
+}
+

@@ -1,0 +1,108 @@
+body { 
+  background-color: #dbeffc;
+  font-family:      Georgia, "Times New Roman", Times, serif;
+  margin:           0;
+}
+
+header.top {
+  /*头部*/
+  width:            100%;/*宽度*/
+  height:           200px;/*高度*/
+  font-size:        800%;
+  text-align:       center;/*文本位置*/
+  color:            #4d7386;
+  background-color: #8dd2f5;
+  font-family:      Helvetica, Georgia, "Times New Roman", Times, serif;
+}
+
+header.top img#headerimg {
+	/*头部图片*/
+  width:            100%;/*宽度*/
+  height:           200px;/*高度*/
+  object-fit:       cover;/*保持图片宽高比*/
+}
+
+
+
+ 
+nav ul {
+  /*导航栏*/
+  width:            100%;
+  padding:          0px;/*内边距*/
+  height:           10px;/*高度*/
+  margin-bottom:    30px;/*外边距*/
+}
+
+nav ul li {
+  /*导航栏行的设置*/
+  height:           30px;
+  width:            20%;
+  list-style:       none;/*列表样式*/
+  float:            left;/*左浮动*/
+  display:          inline;
+  font:             0.9em;
+}
+
+nav ul li a {
+  /*导航栏链接设置*/
+  text-align:       center;/*文本位置*/
+  color:            #4d7386;
+  font-size:        140%;/*字体大小*/
+  font-family:      黑体;
+  width:            100%;
+  margin:           0;
+  text-decoration:  none;/*列表样式*/
+  display:          block;
+  background-color: #8dd2f5;
+  line-height:      40px;
+  border-bottom:    0px solid #dbeffc;
+}
+
+nav ul li a:hover {    
+  /*鼠标划过导航栏时*/
+  color:            #4d7386;
+  background-color: #8dd2f5;/*背景颜色*/
+  border-bottom:    3px solid #4d7386;
+  
+}
+
+footer {
+  /*页脚区*/
+  background-color: #79cef9;
+  color:            #ecf8fa;
+  text-align:       center;/*居中*/
+  padding:          15px;
+  margin-top:       50px;
+  font-size:        90%;
+}
+
+#me {
+  /*简介个人照片*/
+  width:            400px;
+  height:           320px;
+  object-fit:       cover;/*保持图片宽高比*/
+  border-radius:    30px;
+
+}
+
+table {
+  /*表格设置*/
+  border-collapse:  collapse;/*合并单元格边框线*/
+  margin:           60px auto 30px;/*水平居中*/
+  border:           3px solid #8bd4f9;
+}
+
+td{
+  /*单元格内文本内容*/
+  text-align:       center;/*居中*/
+  font-size:        30px;
+  width:            222px;
+  color:            #4d7386;
+  font-family:      Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+tr{
+  height: 83px;/*每列单元格高度*/
+}
+
+

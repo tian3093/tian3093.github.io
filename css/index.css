@@ -1,0 +1,107 @@
+body { 
+  background-color: #dbeffc;
+  font-family:      Georgia, "Times New Roman", Times, serif;
+  margin:           0;
+}
+
+header.top {
+  /*头部*/
+  width:            100%;/*宽度*/
+  height:           200px;/*高度*/
+  font-size:        800%;
+  text-align:       center;/*文本位置*/
+  color:            #4d7386;
+  background-color: #8dd2f5;
+  font-family:      Helvetica, Georgia, "Times New Roman", Times, serif;
+}
+
+header.top img#headerimg {
+	/*头部图片*/
+  width:            100%;/*宽度*/
+  height:           200px;/*高度*/
+  object-fit:       cover;/*保持图片宽高比*/
+}
+ 
+nav ul {
+  /*导航栏*/
+  width:            100%;
+  padding:          0px;/*内边距*/
+  height:           10px;/*高度*/
+  margin-bottom:    30px;/*外边距*/
+}
+
+nav ul li {
+  /*导航栏行的设置*/
+  height:           30px;
+  width:            20%;
+  list-style:       none;/*列表样式*/
+  float:            left;/*左浮动*/
+  font:             0.9em;
+}
+
+nav ul li a {
+  /*导航栏链接设置*/
+  text-align:       center;/*文本位置*/
+  color:            #4d7386;
+  font-size:        140%;/*字体大小*/
+  font-family:      黑体;
+  width:            100%;
+  margin:           0;
+  text-decoration:  none;/*列表样式*/
+  display:          block;
+  background-color: #8dd2f5;
+  line-height:      40px;
+  border-bottom:    0px solid #dbeffc;
+}
+
+nav ul li a:hover {    
+  /*鼠标划过导航栏时*/
+  color:            #4d7386;
+  border-bottom:    3px solid #4d7386;
+  
+}
+
+footer {
+  /*页脚区*/
+  background-color: #79cef9;
+  color:            #ecf8fa;
+  text-align:       center;
+  padding:          15px;
+  margin-top:       50px;
+  font-size:        90%;
+}
+
+.introduce {
+  display:          flex;/*弹性布局*/
+  flex-direction:   column;/*垂直排列*/
+}
+
+.introduce_item {
+  display:          flex;/*弹性布局*/
+  justify-content:  center;/*垂直方向上居中对齐*/
+  margin-top:       60px;
+}
+
+.introduce_item_img {
+  width:            500px;
+  height:           350px;
+  object-fit:       cover;/*保持图片宽高比*/
+}
+
+.introduce_item_word {
+  /*左侧文字*/
+  width:            500px;/*宽度*/
+  font-size:        18px;
+  line-height:      36px;
+  align-self:       center;/*水平方向居中对齐*/
+  padding-left:     100px;
+}
+
+.introduce_item_word2 {
+  /*另一侧文字*/
+  width:            500px;/*宽度*/
+  font-size:        18px;
+  line-height:      36px;
+  align-self:       center;/*水平方向居中对齐*/
+  padding-right:    100px;
+}

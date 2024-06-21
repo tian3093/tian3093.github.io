@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Xiao Tian's website-survey</title>
+    <link rel="stylesheet" type="text/css" href="./css/survey.css">
+  </head> 
+
+  <body>
+    <header class="top">
+       <!-- 头部 -->
+      <img id="headerimg"
+           src="./images/header.jpg" alt="hello,my friend!">  
+    </header>
+   
+    <nav>
+      <!-- 导航栏 -->
+      <ul>
+        <li><a href="./index.html">首页</a></li>
+        <li><a href="./my life.html">我的生活</a></li>
+        <li><a href="./travel.html">旅行剪影</a></li>
+        <li><a href="./more about me.html">多面的我</a></li>
+        <li><a href="./survey.html">朋友问卷</a></li>
+      </ul>
+      </nav>
+
+      <h1>Hi!如果你想和我交流更多内容</h1>
+      <h2>请填写如下问卷~</h2>
+  
+    <form action="./index.html" method="post">
+    <!-- 表单 -->
+    <div class="tableRow">
+      <p> 姓名: </p>
+      <p> <input type="text" name="name" value="" placeholder="xxx" required> </p>
+    </div>
+    <div class="tableRow">
+      <p> 性别: </p>
+      <p> <input type="radio" name="gender" value="nv"> 女
+          <input type="radio" name="gender" value="nan" checked>男</p>
+    </div>
+    <div class="tableRow">
+      <p> 地址: </p>
+      <p> <input type="text" name="address" value="" placeholder="xx省xx市" required> </p>
+    </div> 
+    <div class="tableRow">
+      <p> 联系方式: </p>
+      <p> <input type="text" name="phone" value="" placeholder="phone/email/QQ" required> </p>
+    </div>
+    <div class="tableRow">
+      <p> 喜好: </p>
+      <p> <input type="text" name="love" value="" placeholder="阅读/摄影等" required> </p>
+    </div>
+    <div class="tableRow">
+      <p> 想对我说: </p>
+      <p><textarea name="say"></textarea></p>
+    </div>
+    <div class="tableRow">
+      <p></p>
+      <p> <input type="submit" value="提交"> </p>
+    </div>
+      </form>
+     
+        <footer>
+           <!-- 页脚区 -->
+          &copy; 2024 Jiarui Tian.All Rights Reserved.
+        </footer>
+    
+  </body>
+  </html> 
+
+
